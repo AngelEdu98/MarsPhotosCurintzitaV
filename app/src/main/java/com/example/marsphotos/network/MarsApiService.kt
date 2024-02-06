@@ -21,8 +21,8 @@ interface MarsApiService {
     suspend fun getPhotosPerro() : List<MarsPhoto>
 }
 
-object MarsApi {
-    val retrofitService : MarsApiService by lazy {
-        retrofit.create(MarsApiService::class.java)
-    }
-}
+//object MarsApi {
+//    val retrofitService : MarsApiService by lazy {
+//        retrofit.create(MarsApiService::class.java)
+//    }
+//}
